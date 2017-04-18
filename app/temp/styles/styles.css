@@ -424,6 +424,24 @@ template {
 
 [hidden] {
   display: none;
-} 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background-color: #fff;
+    color: #626262;
+    overflow-x: hidden;
+}
 
 
