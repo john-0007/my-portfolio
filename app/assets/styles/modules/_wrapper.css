@@ -1,0 +1,8 @@
+.wrapper{ 
+    overflow: hidden;
+    background-color: #000;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1236px;
+    margin:0 auto;
+}
