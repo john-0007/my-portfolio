@@ -2,7 +2,10 @@
   "name": "johns-portfolio",
   "version": "1.0.0",
   "dependencies": {
-    "normalize.css": "^6.0.0"
+    "jquery": "^3.2.1",
+    "jquery-cycle-2": "^1.0.3",
+    "normalize.css": "^6.0.0",
+    "typed.js": "^1.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
@@ -13,6 +16,7 @@
     "postcss": "^5.2.17",
     "postcss-import": "^9.1.0",
     "postcss-nested": "^1.0.1",
-    "postcss-simple-vars": "^3.1.0"
+    "postcss-simple-vars": "^3.1.0",
+    "webpack": "^2.4.1"
   }
 }
