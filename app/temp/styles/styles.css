@@ -434,18 +434,18 @@ template {
 
 html,
 body{
-<<<<<<< HEAD
-    
-=======
->>>>>>> header
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     background-color: #fff;
-<<<<<<< HEAD
-    color: #626262;
+    color: #fff;
     overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+     color: #fff;
 }
 
 .site-header{
