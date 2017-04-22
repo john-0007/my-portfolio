@@ -1,0 +1,69 @@
+.cycle-slideshow{ 
+    
+    & .slide{
+    width: 100%; 
+    height: auto;
+      
+    }
+}
+
+
+
+#prev{
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        z-index: 20;
+         color: $mainGray;
+        cursor: pointer;
+         font-size: 1.3rem;
+         transition: color .2s ease-out;
+    
+    }
+#next{
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        z-index: 20;
+        color: $mainGray;
+        cursor: pointer;
+        font-size: 1.3rem;
+        transition: color .2s ease-out;
+    }
+
+#prev:hover,
+#next:hover{
+    color: $mainYellow;
+}
+
+
+.example-pager{
+    position: absolute;
+    z-index: 22;
+    top:8%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    
+    
+    & span{
+        text-indent: -9999px;
+        display: inline-block;
+        width: 22px;
+        height: 8px;
+        border-radius: 2.5px;
+        background-color: $mainGray;
+        margin: 0 4px;
+        cursor: pointer;
+    }
+    & .cycle-pager-active{
+    background: $mainYellow;
+}
+
+}
+
+
+
+
+
+
