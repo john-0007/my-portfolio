@@ -1,0 +1,18 @@
+.site-contact{
+background-color: $mainYellow;
+color: $mainGray;
+    &__content{
+        text-align: center;
+    
+        
+        &__title{
+            font-weight: 700;
+        }
+        
+        &__description{
+            font-weight: 100;
+       
+        }
+    }
+
+}
