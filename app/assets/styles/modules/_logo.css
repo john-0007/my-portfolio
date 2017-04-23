@@ -2,12 +2,19 @@
         width: 80px;
         height: 80px;
         background-color: $mainYellow;
-        position: absolute;
-        top:44px;
-        left: 50%;
-        transform: translateX(-50%);
-    
         border-radius:3px;
+       &__header{
+           position: absolute;
+           left: 50%;
+           transform: translateX(-50%);
+           top:44px;
+            
+       }
+       &__footer{
+               transform: scale(.5);
+               margin: 0 auto;
+         
+           }
         &::before{
             content: "";
             position: absolute;
@@ -48,4 +55,6 @@
 }     
         
     }
+
+
     

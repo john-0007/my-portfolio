@@ -448,6 +448,8 @@ a{
      color: #fff;
 }
 
+/*$mainGray:#7f888b;*/
+
 .site-header{
     
      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/assets/images/1.jpg) top center no-repeat;
@@ -536,15 +538,23 @@ a{
         width: 80px;
         height: 80px;
         background-color: #fdcd3b;
-        position: absolute;
-        top:44px;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
-    
         border-radius:3px;     
         
     }
+
+.logo__header{
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top:44px;
+}
+
+.logo__footer{
+  -webkit-transform: scale(.5);
+          transform: scale(.5);
+  margin: 0 auto;
+}
 
 .logo::before{
   content: "";
@@ -733,7 +743,7 @@ a{
 .site-work{
     width: 100%;
     height: 500px;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .cycle-slideshow .slide{
@@ -746,7 +756,7 @@ a{
         top: 50%;
         left: 2%;
         z-index: 20;
-         color: #7f888b;
+         color: #2a3a3f;
         cursor: pointer;
          font-size: 1.3rem;
          transition: color .2s ease-out;
@@ -758,7 +768,7 @@ a{
         top: 50%;
         right: 2%;
         z-index: 20;
-        color: #7f888b;
+        color: #2a3a3f;
         cursor: pointer;
         font-size: 1.3rem;
         transition: color .2s ease-out;
@@ -785,11 +795,23 @@ a{
   width: 22px;
   height: 8px;
   border-radius: 2.5px;
-  background-color: #7f888b;
+  background-color: #2a3a3f;
   margin: 0 4px;
   cursor: pointer;
 }
 
 .example-pager .cycle-pager-active{
   background: #fdcd3b;
+}
+
+.site-footer{
+    background-color: #2a3a3f;
+    padding: 60px 0 60px 0;
+}
+
+.site-footer__content{
+  text-align: center;
+  font-size: .6rem;
+  font-weight: 100;
+  color:#a6acae;
 }
