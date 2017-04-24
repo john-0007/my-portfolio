@@ -815,3 +815,28 @@ a{
   font-weight: 100;
   color:#a6acae;
 }
+
+.social-icons{
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #263439;
+    margin-top: 1rem;
+    display: inline-block;
+    margin-right: 12px;;
+    position: relative;
+    
+}
+
+.social-icons:hover{
+  background-color: #1e292d;
+}
+
+.social-icons__icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
