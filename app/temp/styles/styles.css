@@ -556,6 +556,13 @@ a{
   margin: 0 auto;
 }
 
+.logo__modal{
+  position: absolute;
+  left: 50%;
+  -webkit-transform:translate(-50%,-100%);
+          transform:translate(-50%,-100%);
+}
+
 .logo::before{
   content: "";
   position: absolute;
@@ -844,4 +851,77 @@ color: #2a3a3f;
   font-size: .6rem;
   font-weight: 100;
   color:#a6acae;
+}
+
+.modal{
+    position: fixed;
+    z-index: 999;
+    background-color: #2a3a3f;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+
+.modal--is-visible{
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.modal__inner{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.modal__title{
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin: 50px;
+  text-transform: capitalize;
+}
+
+.modal__description{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.65;
+  margin-top: 20px;
+}
+
+.modal__description p{
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.modal__description img{
+  vertical-align: middle;
+  margin:10px 20px;
+}
+
+.modal__close{
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  font-size: 1.5rem;
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  cursor: pointer;
+  transition: color .2s ease-out;
+}
+
+.modal__close:hover{
+  color: #fdcd3b;
 }

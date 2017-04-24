@@ -1,0 +1,67 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    background-color: $mainGray;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+    &--is-visible{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+   
+    
+    &__inner{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+     
+    }
+    &__title{
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin: 50px;
+        text-transform: capitalize;
+    }
+       &__description{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.65;
+        margin-top: 20px;
+           & p{
+               font-size: 1.1rem;
+               font-weight: 100;
+           }  
+           
+           & img{
+    vertical-align: middle;
+    margin:10px 20px;
+    
+}
+    }
+    
+    &__close{
+        position: absolute;
+        top: 25px;
+        right: 40px;
+        font-size: 1.5rem;
+        transform: scaleX(1.2);
+        transform-origin: 100% 0;
+        cursor: pointer;
+        transition: color .2s ease-out;
+        &:hover{
+            color: $mainYellow;
+        }
+    }
+}
+
+
