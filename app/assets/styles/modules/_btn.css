@@ -27,7 +27,14 @@
             color: $mainYellow;
             transform: scaleX(1.06);
         }
-
+    }
+    
+    &__y-outline{
+        border: 2px solid $mainYellow;
+        color: #000;
+        &:hover{
+            border: 2px solid $mainGray;
+        }
     }
 }
 

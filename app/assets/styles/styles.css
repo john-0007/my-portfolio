@@ -10,6 +10,9 @@
 @import "modules/_page-section";
 @import "modules/_row";
 @import "modules/_cycle";
+@import "modules/_site-project";
 @import "modules/_site-contact";
 @import "modules/_site-footer";
 @import "modules/_modal";
+@import "modules/_social-icons";
+

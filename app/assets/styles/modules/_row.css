@@ -1,5 +1,5 @@
 .row{
-   margin-bottom: 100px;
+   margin:100px 0;
     &::after{
         content:"";
         clear: both;
