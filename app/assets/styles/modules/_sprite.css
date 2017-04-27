@@ -1,0 +1,54 @@
+.icon{
+   background-image:url("/assets/images/sprite/sprite-60d3cceb.svg"); 
+}
+
+.icon--envelope{
+    width: 44px;
+    height: 44px;
+    background-position:0 0;
+}
+.icon--facebook{
+    width: 20px;
+    height: 20px;
+    background-position:0 68.75%;
+}
+.icon--facebook2{
+    width: 20px;
+    height: 20px;
+    background-position:29.41176470588235% 68.75%;
+}
+.icon--github{
+    width: 20px;
+    height: 20px;
+    background-position:58.8235294117647% 68.75%;
+}
+.icon--github2{
+    width: 20px;
+    height: 20px;
+    background-position:88.23529411764706% 68.75%;
+}
+.icon--google-plus{
+    width: 20px;
+    height: 20px;
+    background-position:0 100%;
+}
+.icon--google-plus2{
+    width: 20px;
+    height: 20px;
+    background-position:29.41176470588235% 100%;
+}
+.icon--linkedin{
+    width: 20px;
+    height: 20px;
+    background-position:58.8235294117647% 100%;
+}
+.icon--linkedin2{
+    width: 20px;
+    height: 20px;
+    background-position:88.23529411764706% 100%;
+}
+.icon--mobile2{
+    width: 44px;
+    height: 44px;
+    background-position:100% 0;
+}

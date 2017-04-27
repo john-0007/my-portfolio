@@ -715,16 +715,16 @@ a{
     margin-left: 4rem;
 }
 
+.page-section{
+    padding: 5rem 0;
+}
+
 .b-line{   
     display: block;
     background:#fdcd3b;
     width: 100px;
     height: 7px;
     margin:30px 0 40px 0;
-}
-
-.page-section{
-    padding: 5rem 0;
 }
 
 .row{
@@ -904,8 +904,10 @@ color: #2a3a3f;
     bottom: 0;
     left: 0;
     right: 0;
+/*
     opacity: 0;
     visibility: hidden;
+*/
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     transition: all .3s ease-out;
@@ -947,7 +949,7 @@ color: #2a3a3f;
   font-weight: 100;
 }
 
-.modal__description img{
+.modal__description .icon{
   vertical-align: middle;
   margin:10px 20px;
 }
@@ -993,4 +995,73 @@ color: #2a3a3f;
   -webkit-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
+
+.icon{
+   display: inline-block;
+}
+
+.icon{
+   background-image:url("/assets/images/sprite/sprite-60d3cceb.svg"); 
+}
+
+.icon--envelope{
+    width: 44px;
+    height: 44px;
+    background-position:0 0;
+}
+
+.icon--facebook{
+    width: 20px;
+    height: 20px;
+    background-position:0 68.75%;
+}
+
+.icon--facebook2{
+    width: 20px;
+    height: 20px;
+    background-position:29.41176470588235% 68.75%;
+}
+
+.icon--github{
+    width: 20px;
+    height: 20px;
+    background-position:58.8235294117647% 68.75%;
+}
+
+.icon--github2{
+    width: 20px;
+    height: 20px;
+    background-position:88.23529411764706% 68.75%;
+}
+
+.icon--google-plus{
+    width: 20px;
+    height: 20px;
+    background-position:0 100%;
+}
+
+.icon--google-plus2{
+    width: 20px;
+    height: 20px;
+    background-position:29.41176470588235% 100%;
+}
+
+.icon--linkedin{
+    width: 20px;
+    height: 20px;
+    background-position:58.8235294117647% 100%;
+}
+
+.icon--linkedin2{
+    width: 20px;
+    height: 20px;
+    background-position:88.23529411764706% 100%;
+}
+
+.icon--mobile2{
+    width: 44px;
+    height: 44px;
+    background-position:100% 0;
+}
+
 
