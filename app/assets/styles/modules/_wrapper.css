@@ -2,7 +2,16 @@
     overflow: hidden;
     padding-left: 18px;
     padding-right: 18px;
-    max-width: 1200px;
+    max-width: 1236px;
     margin:0 auto;
+    
+    @mixin atMedium{
+        padding-left: 80px;
+    padding-right: 80px;
+    } 
+    @mixin atLarge{
+        padding-left:50px;
+    padding-right: 50px;
+    }
 }
 

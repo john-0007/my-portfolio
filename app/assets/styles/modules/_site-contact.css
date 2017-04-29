@@ -3,14 +3,24 @@ background-color: $mainYellow;
 color: $mainGray;
     &__content{
         text-align: center;
+        font-size: .8rem;
+        @mixin atMedium{
+                font-size:.9rem;
+            } 
+        @mixin atLarge{
+                font-size: 1rem;
+            }
     
         
-        &__title{
-            font-weight: 700;
-        }
-        
         &__description{
+            font-size: .78rem;
             font-weight: 100;
+            @mixin atMedium{
+                font-size: .9rem;
+            }  
+            @mixin atLarge{
+                font-size: 1.1rem;
+            }
        
         }
     }
