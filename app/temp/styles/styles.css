@@ -461,7 +461,7 @@ a{
 @media (min-width:1025px) {
 
   .site-header {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/assets/images/1.jpg) top center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/assets/images/1.jpg) top center no-repeat;
     background-size: cover;
   }
 }
@@ -472,8 +472,8 @@ a{
   position: absolute;
   bottom: 50%;
   right: 50%;
-  -webkit-transform: translate(50%,30%);
-          transform: translate(50%,30%);
+  -webkit-transform: translate(50%,40%);
+          transform: translate(50%,40%);
 }
 
 @media (min-width:768px) {
@@ -618,7 +618,7 @@ a{
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  top:44px;
+  top:48px;
 }
 
 .logo__footer{

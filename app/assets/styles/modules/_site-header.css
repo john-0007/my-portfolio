@@ -4,7 +4,7 @@
      height: 100vh;
      position: relative;
       @mixin atLarge{
-                 background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/assets/images/1.jpg) top center no-repeat;
+                 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/assets/images/1.jpg) top center no-repeat;
                   background-size: cover;
            }
     
@@ -14,7 +14,7 @@
         position: absolute;
         bottom: 50%;
         right: 50%;
-        transform: translate(50%,30%);
+        transform: translate(50%,40%);
            
            @mixin atMedium{
                font-size: .8rem;
