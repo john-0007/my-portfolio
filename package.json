@@ -4,6 +4,7 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "jquery-cycle-2": "^1.0.3",
+    "lazysizes": "^3.0.0",
     "normalize.css": "^6.0.0",
     "typed.js": "^1.1.1",
     "waypoints": "^4.0.1"
