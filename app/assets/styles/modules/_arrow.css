@@ -1,0 +1,27 @@
+.arrow{
+
+    width: 14px;
+    height: 14px;
+    border-bottom: 3px solid $mainGray;
+    border-right: 3px solid $mainGray;
+    border-radius: 4px;
+    transition: all .5s ease-in;
+    &__left{
+        transform: rotate(135deg);
+    }
+    &__right{
+        transform: rotate(-45deg);
+    }  
+    &__down{
+        margin: 7px auto;
+         border-bottom: 3px solid #fff;
+         border-right: 3px solid #fff;
+         transform: rotate(45deg);
+    }
+    &:hover{
+    border-bottom: 3.5px solid $mainYellow;
+    border-right: 3.5px solid $mainYellow;
+    }
+}
+
+

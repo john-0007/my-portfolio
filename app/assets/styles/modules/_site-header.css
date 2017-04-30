@@ -46,25 +46,27 @@
         display: block;
         text-align: center;
         color: #c7cad2;
-        transition: color .3s ease-out;
-        
-        
-        
-        &-key{
+        transition: color .2s ease-out;
+        &-arrow{
             display: block;
-            font-size: 1.2rem;
+            font-size: .8rem;
             margin-top: 8px;
+            transform: scaleX(1.7);
+            transform-origin:top;
+            @mixin atMedium{
+                font-size: .9rem;
+            }
         }
        
     }
-    &__link:hover{
+     &__link:hover{
         color: #fff;
+
     }
 }
 
 }
 
 
-   
-    
+
  

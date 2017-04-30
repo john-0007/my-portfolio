@@ -10328,21 +10328,42 @@ return jQuery;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-console.log("hello world!");
+var $=__webpack_require__(0);
+
+
+$(".btn__gray").click(function(){
+     $(".modal").addClass("modal--is-visible");
+    return false;
+});
+
+$(".modal__close").click(function(){
+     $(".modal").removeClass("modal--is-visible");
+    return false;
+});
+
+$(document).keyup(function(event){
+    if(event.keyCode === 27){
+     $(".modal").removeClass("modal--is-visible");
+    }
+    return false;
+});
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(0);
+var $=__webpack_require__(0);
 
-
-
-
-
-
+$(".site-header__scroll-down__link").click(function(){
+    $("html,body").animate({scrollTop:$(".js__scroll-slides").offset().top},1000);
+    return false;
+});
+$(".btn__yellow").click(function(){
+    $("html,body").animate({scrollTop:$(".js__scroll-contact").offset().top},1500);
+    return false;
+});
 
 
 /***/ }),
@@ -10372,7 +10393,6 @@ function(a){"use strict";a.extend(a.fn.cycle.defaults,{tmplRegex:"{{((.)?.*?)}}"
 /***/ (function(module, exports, __webpack_require__) {
 
 var $=__webpack_require__(0);
-//require("jquery-cycle-2");
 __webpack_require__(3);
 __webpack_require__(2);
 __webpack_require__(1);

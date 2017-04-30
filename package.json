@@ -5,7 +5,8 @@
     "jquery": "^3.2.1",
     "jquery-cycle-2": "^1.0.3",
     "normalize.css": "^6.0.0",
-    "typed.js": "^1.1.1"
+    "typed.js": "^1.1.1",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",

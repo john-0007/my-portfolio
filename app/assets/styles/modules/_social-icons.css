@@ -8,9 +8,22 @@
     display: inline-block;
     margin-right: 12px;;
     position: relative;
-    
+    transition: all .3s ease-out;
     &:hover{
         background-color: #1e292d;
+        & .icon--facebook{
+            background-position:29.41176470588235% 68.75%;
+        }
+        & .icon--linkedin{
+            background-position:88.23529411764706% 100%;
+        }
+        & .icon--google-plus{
+            background-position:29.41176470588235% 100%;
+        }
+        & .icon--github{
+            background-position:88.23529411764706% 68.75%;
+        }
+        
     }
     
     &__icon{
@@ -25,3 +38,6 @@
 .icon{
    display: inline-block;
 }
+
+
+/*.social-icon a*/

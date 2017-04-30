@@ -14,33 +14,19 @@
 }
 
 @mixin atMedium{
-  #prev{
+  #prev,
+  #next{
         position: absolute;
         top: 50%;
-        left: 1%;
         z-index: 20;
-         color: $mainGray;
         cursor: pointer;
-         font-size: 1.3rem;
-         transition: color .2s ease-out;
-    
     }
 #next{
-        position: absolute;
-        top: 50%;
-        right: 1.2%;
-        z-index: 20;
-        color: $mainGray;
-        cursor: pointer;
-        font-size: 1.3rem;
-        transition: color .2s ease-out;
+        right: 1%;
     }
-  #prev:hover,
-  #next:hover{
-    color: $mainYellow;
-}
-
-    
+    #prev{
+        left: 1%;
+    }
 }
 
 #next{
