@@ -461,7 +461,7 @@ a{
 @media (min-width:1025px) {
 
   .site-header {
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/assets/images/1.jpg) top center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../../assets/images/1.jpg) top center no-repeat;
     background-size: cover;
   }
 }
