@@ -17,8 +17,6 @@
         transform: scale(1);
         border-radius:0;
     }
-   
-    
     &__inner{
         position: absolute;
         left: 50%;
@@ -26,36 +24,52 @@
         transform: translate(-50%,-50%);
      
     }
-    &__title{
-        font-size: 2rem;
-        font-weight: 400;
-        letter-spacing: 3px;
-        margin: 50px;
-        text-transform: capitalize;
-    }
        &__description{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: .9rem;
         font-weight: 300;
         line-height: 1.65;
-        margin-top: 20px;
+        margin-top: 80px;
+           
+           @mixin atSmall{
+                font-size: 1.1rem; 
+                 margin-top: 60px;
+}           
+           @mixin atMedium{
+                font-size: 1.4rem; 
+                 margin-top: 60px;
+}
            & p{
-               font-size: 1.1rem;
-               font-weight: 100;
-           }  
+               font-size: .8rem;
+               font-weight: 100; 
+               @mixin atMedium{
+                   font-size: 1rem;
+               }
+               
+           }
            
            & .icon{
-    vertical-align: middle;
-    margin:10px 20px;
-    
+                display: block;
+                margin:20px auto;
+               @mixin atSmall{
+                   display: inline-block;
+                   vertical-align:middle;
+                   margin:20px 5px;;
+               }
+               @mixin atMedium{
+                   margin:20px 20px;
+               }
+               
+               
+
 }
     }
     
     &__close{
         position: absolute;
         top: 25px;
-        right: 40px;
-        font-size: 1.5rem;
+        right: 30px;
+        font-size: 1rem;
         transform: scaleX(1.2);
         transform-origin: 100% 0;
         cursor: pointer;

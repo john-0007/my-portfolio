@@ -9,13 +9,17 @@
            }
     
        &__text-content{ 
-        font-size: .6rem;
+        font-size: .4rem;
         text-align: center;
         position: absolute;
-        bottom: 50%;
+        padding: 7px 0;
+        bottom: 45%;
         right: 50%;
         transform: translate(50%,40%);
            
+           @mixin atSmall{
+               font-size: .6rem;
+           }
            @mixin atMedium{
                font-size: .8rem;
            }
@@ -25,7 +29,7 @@
            }
     }
  &__scroll-down{
-     font-size: .65rem;
+     font-size: .5rem;
      position: absolute;
      bottom: 20px;
      left: 50%;
@@ -49,7 +53,7 @@
         transition: color .2s ease-out;
         &-arrow{
             display: block;
-            font-size: .8rem;
+            font-size: .5rem;
             margin-top: 8px;
             transform: scaleX(1.7);
             transform-origin:top;

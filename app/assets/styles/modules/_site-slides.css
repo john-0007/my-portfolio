@@ -9,11 +9,15 @@
     &__title{
         text-align: center;
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: .7rem;
         letter-spacing: .15rem;
         font-weight: bold;
         
-        @mixin atMedium{
+        @mixin atSmall{
+        font-size: 1rem;
+        letter-spacing: .2rem;
+    
+        }    @mixin atMedium{
         font-size: 1.2rem;
         letter-spacing: .2rem;
     
@@ -27,10 +31,10 @@
     }
     
     &__description{
-        line-height: 1.65;
+        line-height: 1.5;
         font-weight: 100;
         text-align: justify;
-        font-size: .8rem;
+        font-size: .73rem;
         
         @mixin atMedium{
         font-size: .9rem;
@@ -46,9 +50,9 @@
 }
     
     & dt{
-        font-size: .72rem;
+        font-size: .6rem;
         font-weight: 700;
-        padding: 2px 0;
+        padding-bottom: 2px;
         
         @mixin atSmall{
         font-size: .75rem;
@@ -68,7 +72,7 @@
     }
     
     & dd{
-        font-size: .68rem;
+        font-size: .6rem;
         line-height: 1.45;
         font-weight: 300;
         @mixin atSmall{

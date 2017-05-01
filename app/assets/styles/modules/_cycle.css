@@ -2,9 +2,9 @@
     
     & .slide{
     width: 100%; 
-    height: 410px;
+    height: 435px;
         @mixin atMedium{
-            height: 438px;
+            height: 456px;
         } 
         @mixin atLarge{
             height: 370px;

@@ -1,7 +1,7 @@
 var $=require("jquery");
 
 
-$(".btn__gray").click(function(){
+$(".js__open").click(function(){
      $(".modal").addClass("modal--is-visible");
     return false;
 });
