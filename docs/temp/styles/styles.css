@@ -1608,7 +1608,7 @@ color: #2a3a3f;
 /*.social-icon a*/
 
 .icon{
-   background-image:url("/assets/images/sprite/sprite-60d3cceb.svg"); 
+   background-image:url("../../assets/images/sprite/sprite-60d3cceb.svg"); 
 }
 
 .icon--envelope{
